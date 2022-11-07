@@ -98,7 +98,7 @@ struct DnsPacket {
   answers: Vec<DnsAnswer>,
 }
 impl DnsPacket {
-  fn create_query(name: &str, host_address: QueryType) -> DnsPacket {
+  fn create_query(name: &str, query_type: QueryType) -> DnsPacket {
     todo!()
   }
 
